@@ -1,5 +1,7 @@
 # zopfli-size
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/zopfli-size.svg)](https://greenkeeper.io/)
+
 > Get the gzipped size of a string or buffer using Zopfli.
 
 [![travis][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]

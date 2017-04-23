@@ -1,0 +1,40 @@
+{
+  "name": "zopfli-size",
+  "version": "0.0.0",
+  "description": "Get the gzipped size of a string or buffer using Zopfli",
+  "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
+  "license": "MIT",
+  "repository": "ngryman/zopfli-size",
+  "keywords": [
+    "zopfli",
+    "gzip",
+    "compressed",
+    "size",
+    "string",
+    "buffer",
+    "stream"
+  ],
+  "engines": {
+    "node": ">=5"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "nyc ava",
+    "start": "ava --watch",
+    "coverage": "nyc report --reporter=text-lcov | codecov",
+    "see-coverage": "nyc report --reporter=html && open coverage/index.html"
+  },
+  "dependencies": {
+    "duplexer": "^0.1.1",
+    "to-buffer": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "codecov.io": "^0.1.6",
+    "node-zopfli": "^2.0.2",
+    "nyc": "^10.2.0"
+  }
+}

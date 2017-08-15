@@ -32,7 +32,7 @@
     "to-buffer": "^1.1.0"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.22.0",
     "codecov.io": "^0.1.6",
     "node-zopfli": "^2.0.2",
     "nyc": "^10.2.0"
